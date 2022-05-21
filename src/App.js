@@ -3,7 +3,7 @@ import Change from './cngmsg.js';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
-import Donut from "./donut.png"
+import Donutimg from "./donut.png"
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -222,7 +222,7 @@ export default class App extends React.Component {
           <Stopbtn onClick={this.stop}><img style={{width:"20px"}} src="https://cdn-icons-png.flaticon.com/512/151/151859.png"/></Stopbtn>
         </Btndiv>
         <Homer src="https://gifs.eco.br/wp-content/uploads/2021/07/mais-de-100-gifs-animados-e-imagens-animadas-para-facebook-e-whatsapp-54.gif" /> 
-        <Donut src={Donut} />
+        <Donut src={Donutimg} />
       </Container>
     );
   }
