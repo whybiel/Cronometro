@@ -3,6 +3,8 @@ import Change from './cngmsg.js';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
+import Donut from "./donut.png"
+
 const GlobalStyle = createGlobalStyle`
   *{
     margin:0;
@@ -220,7 +222,7 @@ export default class App extends React.Component {
           <Stopbtn onClick={this.stop}><img style={{width:"20px"}} src="https://cdn-icons-png.flaticon.com/512/151/151859.png"/></Stopbtn>
         </Btndiv>
         <Homer src="https://gifs.eco.br/wp-content/uploads/2021/07/mais-de-100-gifs-animados-e-imagens-animadas-para-facebook-e-whatsapp-54.gif" /> 
-        <Donut src="https://o.remove.bg/downloads/2eff9c96-9439-4f79-be3a-30aaf7460153/png-transparent-donuts-coffee-and-doughnuts-bakery-bagel-homero-food-magenta-snack-removebg-preview.png" />
+        <Donut src={Donut} />
       </Container>
     );
   }
