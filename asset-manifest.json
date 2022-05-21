@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Cronometro/static/js/main.0bb60f4c.js",
+    "static/js/787.50378447.chunk.js": "/Cronometro/static/js/787.50378447.chunk.js",
+    "index.html": "/Cronometro/index.html",
+    "main.0bb60f4c.js.map": "/Cronometro/static/js/main.0bb60f4c.js.map",
+    "787.50378447.chunk.js.map": "/Cronometro/static/js/787.50378447.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0bb60f4c.js"
+  ]
+}
